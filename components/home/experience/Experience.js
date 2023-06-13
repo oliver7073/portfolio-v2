@@ -19,7 +19,7 @@ const experience = [
     time: "06/2023 - 08/2023",
     location: "Eden Prarie, MN",
     description:
-    "Streamlined the process of automating the creation of remediation instructions for critical security vulnerabilities in internal applications Implemented AI-powered features on internal cloud security web app using React.js, JavaScript, and GraphQL to increase functionality Contributed to an Agile team, utilizing Microsoft Teams to create and update team board to enhance communication and facilitate effective project management",
+      "- Streamlined the process of automating the creation of remediation instructions for critical security vulnerabilities in internal applications\n\n - Implemented AI-powered features on internal cloud security web app using React.js, JavaScript, and GraphQL to increase functionality\n\n - Contributed to an Agile team, utilizing Microsoft Teams to create and update team board to enhance communication and facilitate effective project management",
     tech: [
       "JavaScript",
       "GraphQL",
