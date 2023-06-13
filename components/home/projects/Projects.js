@@ -86,8 +86,8 @@ const projects = [
   {
     title: "This Portfolio website",
     imgSrc: "project-imgs/portfolio.jpg",
-    code: "https://www.github.com",
-    projectLink: "",
+    code: "https://github.com/oliver7073/portfolio-v2",
+    projectLink: "https://oliverpham.vercel.app/",
     tech: ["Javascript", "react.js",  "CSS"],
     description:
       "The portfolio website that you're looking at right now",
