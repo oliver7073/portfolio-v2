@@ -6,7 +6,6 @@ export const Projects = () => {
   return (
     <section className="section-wrapper" id="projects">
       <SectionHeader title="Projects" dir="r" />
-
       <div className={styles.projects}>
         {projects.map((project) => {
           return <Project key={project.title} {...project} />;
@@ -21,7 +20,6 @@ const projects = [
     title: "StockX Marketplace Price Checker",
     imgSrc: "project-imgs/stockxbot.png",
     code: "https://github.com/oliver7073/stockxDiscord",
-    projectLink: "",
     tech: ["Python", "Discord API", "StockX API", "Git"],
     description:
       "Discord bot that outputs information of products on Stockx",
@@ -43,7 +41,6 @@ const projects = [
     title: "Account Generator",
     imgSrc: "project-imgs/accountgenerator.jpg",
     code: "https://github.com/oliver7073/accoutngen",
-    projectLink: "",
     tech: ["Python", "SeleniumLibrary", "ChromeDriver", "Git"],
     description:
       "Creates user accounts for web applications using Chrome and Selenium",
@@ -65,7 +62,6 @@ const projects = [
     title: "Package Tracker",
     imgSrc: "project-imgs/packagetracker.jpg",
     code: "https://github.com/oliver7073/packageTracker",
-    projectLink: "",
     tech: ["Python", "AfterShip API", "Git"],
     description:
       "Application that fetches information of tracking numbers",
@@ -87,7 +83,6 @@ const projects = [
     title: "This Portfolio website",
     imgSrc: "project-imgs/portfolio.jpg",
     code: "https://github.com/oliver7073/portfolio-v2",
-    projectLink: "https://oliverpham.vercel.app/",
     tech: ["Javascript", "Next.js",  "CSS"],
     description:
       "The portfolio website that you're looking at right now",

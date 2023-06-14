@@ -8,7 +8,6 @@ import styles from "./projects.module.scss";
 
 export const Project = ({
   modalContent,
-  projectLink,
   description,
   imgSrc,
   title,
@@ -68,10 +67,6 @@ export const Project = ({
               <Link href={code} target="_blank" rel="nofollow">
                 <AiFillGithub size="2.8rem" />
               </Link>
-
-              <Link href={projectLink} target="_blank" rel="nofollow">
-                <AiOutlineExport size="2.8rem" />
-              </Link>
             </div>
           </Reveal>
           <Reveal>
@@ -87,7 +82,6 @@ export const Project = ({
       </motion.div>
       <ProjectModal
         modalContent={modalContent}
-        projectLink={projectLink}
         setIsOpen={setIsOpen}
         isOpen={isOpen}
         imgSrc={imgSrc}

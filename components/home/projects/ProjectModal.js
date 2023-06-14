@@ -8,7 +8,6 @@ import { MdClose } from "react-icons/md";
 
 export const ProjectModal = ({
   modalContent,
-  projectLink,
   setIsOpen,
   imgSrc,
   isOpen,
@@ -56,9 +55,6 @@ export const ProjectModal = ({
             <div className={styles.links}>
               <Link target="_blank" rel="nofollow" href={code}>
                 <AiFillGithub /> source code
-              </Link>
-              <Link target="_blank" rel="nofollow" href={projectLink}>
-                <AiOutlineExport /> live project
               </Link>
             </div>
           </div>
